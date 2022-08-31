@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIsplay</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .main{
+            height:100vh;
+            width:100vw;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background-color:black;
+        }
+        .sub{
+            height:300px;
+            width:250px;
+            background-color:white;
+            text-align: justify;
+            padding:5px;
+        }
+        p{
+            display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, asperiores, corporis minus in illo, quod qui quasi ipsam vel itaque. Dolorem repellat libero aliquid maxime porro, omnis eligendi animi.</p>
+        </div>
+    </div>
+</body>
+</html>
